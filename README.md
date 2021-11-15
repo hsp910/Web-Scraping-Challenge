@@ -1,1 +1,4 @@
-# Web-Scraping-Challenge
+# Mission to Mars
+
+## Background
+I have been tasked with creating a web scraping app that uses a combination of a Flask app and index files to creat a graphical interface that allows users to scrape and view data about Mars from the web. The actual scraping is using a package known as Beatiful Soup and we then parse the html of the website being scraped to be uploaded to a locally hosted MongoDB server on the machine of whoever is running the app. Obviously this does require one to install and run MongoDB on their own machine to run this application, and making sure the correct port is open for the app to call and recieve data from, but with all of this in mind I have created an application that can do all of the above. The Flask app is also using an html file as a template so that the graphical interface can be even easier to understand for the average end-user. The html file is using Bootstrap as it's primary stylesheet with some minor color alterations by myself for the table so that it stands out more on the webpage. The Bootstrap CSS also means that the webstie is fully responsive.
